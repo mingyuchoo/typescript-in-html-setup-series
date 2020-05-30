@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+
+    /* Basic Options */
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": [],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./",
+    "rootDir": "./",
+    "removeComments": true,
+    "noEmit": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "public"]
+}
