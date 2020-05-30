@@ -3,12 +3,12 @@
 
     /* Basic Options */
     "target": "es5",
-    "module": "CommonJS",
-    "lib": [],
+    "module": "commonjs",
+    "lib": ["dom", "es5"],
     "allowJs": true,
     "sourceMap": true,
-    "outDir": "./",
-    "rootDir": "./",
+    "outDir": "./public/js",
+    "rootDir": "src/ts",
     "removeComments": true,
     "noEmit": true,
 
