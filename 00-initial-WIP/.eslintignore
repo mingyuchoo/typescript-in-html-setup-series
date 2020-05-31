@@ -1,2 +1,4 @@
 webpack.*
 dist
+public
+node_modules

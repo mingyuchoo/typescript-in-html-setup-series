@@ -21,7 +21,10 @@
 
     /* Advanced Options */
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Roots */
+    "typeRoots": ["typings.d.ts"],
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "public"]
