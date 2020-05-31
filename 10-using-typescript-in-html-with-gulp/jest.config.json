@@ -1,5 +1,5 @@
 {
-  "testRegex": "((\\.|/*.)(spec|test))\\.jest\\.js?$",
+  "testRegex": "((\\.|/*.)(spec|test))\\.jest\\.tsx?$",
   "collectCoverage": true,
   "coverageDirectory": "./coverage",
   "coverageThreshold": {
