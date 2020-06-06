@@ -22,10 +22,10 @@ reporter: spec
 retries: 1
 slow: 75
 sort: false
-spec:  "((\\.|/*.)(spec|test))\\.mocha\\.tsx?$"
+spec:  src/ts/**/*.spec.mocha.ts
 timeout: false
 trace-warnings: true
 ui: bdd
 watch: true
 watch-files:
- -  "((\\.|/*.)(spec|test))\\.mocha\\.tsx?$"
+ - src/ts/**/*.spec.mocha.ts

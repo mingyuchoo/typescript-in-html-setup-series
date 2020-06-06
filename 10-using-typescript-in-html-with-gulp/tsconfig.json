@@ -25,6 +25,7 @@
 
     /* Type Roots */
     "typeRoots": ["typings.d.ts"],
+    "types": ["mocha", "node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "public"]
