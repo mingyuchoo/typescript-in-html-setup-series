@@ -1,4 +1,4 @@
-# This is an example Mocha config containing every Mocha option plus others
+---
 allow-uncaught: false
 async-only: false
 bail: false
@@ -8,7 +8,7 @@ delay: false
 diff: true
 exit: false # could be expressed as "no-exit: true"
 extension:
-  - js
+  - ts
 forbid-only: false
 forbid-pending: false
 full-trace: false
@@ -22,7 +22,7 @@ reporter: spec
 retries: 1
 slow: 75
 sort: false
-spec:  src/ts/**/*.spec.mocha.ts
+spec: src/ts/**/*.spec.mocha.ts
 timeout: false
 trace-warnings: true
 ui: bdd
