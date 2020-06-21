@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
 
+    /* Types */
+    "types": ["jest", "mocha", "chai", "node"],
+    "typeRoots": ["typings.d.ts"],
+
     /* Basic Options */
     "target": "es5",
     "module": "commonjs",
@@ -21,11 +25,7 @@
 
     /* Advanced Options */
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-
-    /* Types */
-    "typeRoots": ["typings.d.ts"],
-    "types": ["mocha", "node"]
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "public"]
